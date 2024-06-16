@@ -2,6 +2,7 @@
 The goal of this data transformation is to replace the data in the main table (Table 1) with data from another table (Table 2).
 - The data in the main table (Table 1 - Raw Data) is incorrectly inserted.
 - A new table (Table 2 - Correct Data) is created to track the accurate information.
+![Screenshot 2024-06-16 142714](https://github.com/stephanyed/replace-data-from-another-table/assets/170702920/47b567bd-0fd0-4309-8c8c-a82f52b30500)
 
 ## Data
 Table 1: The raw data is collected from different users via surveys and includes information on their energy and water usage.
