@@ -5,10 +5,10 @@ The goal of this data transformation is to replace the data in the main table (T
 ![Screenshot 2024-06-16 142714](https://github.com/stephanyed/replace-data-from-another-table/assets/170702920/47b567bd-0fd0-4309-8c8c-a82f52b30500)
 
 ## Data
-Table 1: The raw data is collected from different users via surveys and includes information on their energy and water usage.
-Data Columns in Table 1: Year, ID, Factory Name, energyusage.value, energyusage.unit, waterusage.value, waterusage.unit
-Table 2: Users might accidentally insert incorrect data during the survey and then send in the correct data after the survey period.
-Data Columns in Table 2: Year, Factory Name, Data to correct columns (energyusage.value, ..., waterusage.unit)
+- Table 1: The raw data is collected from different users via surveys and includes information on their energy and water usage.
+- Data Columns in Table 1: Year, ID, Factory Name, energyusage.value, energyusage.unit, waterusage.value, waterusage.unit
+- Table 2: Users might accidentally insert incorrect data during the survey and then send in the correct data after the survey period.
+- Data Columns in Table 2: Year, Factory Name, Data to correct columns (energyusage.value, ..., waterusage.unit)
 
 ## Benefits
 Instead of MS Excel formulas, Power Query is used for data transformation. This approach:
